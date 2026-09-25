@@ -1,0 +1,315 @@
+verify_generic: C = [1, 0, 1, -137, 380], det 1092
+  L, p, q, D, E: coefficients in Z[X,Y] of degrees 2, 2, 2, 4, 4 in T                  ok
+  the 14 line discriminants are squares in K[T]; all 17 sections satisfy the equation identically ok
+  the sections are integral (deg x <= 4, deg y <= 6); deg a_i <= 2i                    ok
+  Delta_K has degree 24 (leading coefficient nonzero in K)                             ok
+  at P0 = [12, -29]: Delta(P0) = Delta_K(P0) is squarefree of degree 24 (mod 1009), so disc_T Delta_K != 0 ok
+  Gram matrix at P0: det 1092, group [1092], no norm-2 vectors, no even overlattice    ok
+  branch polynomials disc_T(c4^3 - z Delta) at P0 and [11/4, -57/8] differ mod 10007: not isotrivial ok
+  (3) follows by specialisation (see PROOF) outside O, the zeros of disc_T Delta_K (a nonzero element of K)
+      and the poles of the section coordinates, which lie over the roots of [X - 39, X - 15, X + 6, X + 13, X^2 - 117, X^4 + 16*X^3 + 358*X^2 - 3120*X + 38025]
+verify_generic: all checks passed
+
+verify [1221305556/124657225, -3745359697624/1391797917125]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [8431186647/2841849481, -587770446162166/151496153982629]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-1213442073/94148209, 11211978265486/913520071927]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [8533411926/2621161, -795221571019534/4243659659]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-2321646/3200521, -126102068849/5725732069]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [93468999/5612161, 585640775414/13295209409]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [42380655/1324801, -284857294126/1524845951]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-10450440/2128681, 101193678865/3105745579]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [62737/576, 14883989/13824]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-703261/70225, -431835018/18609625]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [120819/61009, 141708562/15069223]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [2581527/228484, -2601467849/109215352]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-15774/1369, 1348738/50653]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [67431/289, -18073438/4913]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [23055/2209, 542270/103823]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [4680/1849, -716852/79507]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [516/25, -11401/125]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-1833/841, 645014/24389]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-153/49, -9206/343]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [2886/121, 122009/1331]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [11/4, 27/8]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [91/9, -358/27]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [435, 8854]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-195/16, -695/64]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [12, 16]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 20011): 0
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 3407336201192, discriminant group [851834050298, 2, 2], vectors of norm 2: -, even overlattices: -
+  => NOT certified
+verify [39/25, -1798/125]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 20011): 0
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det -48011634, discriminant group [48011634], vectors of norm 2: -, even overlattices: -
+  => NOT certified
+verify [-9, 34]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 20011): 0
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 4907336416, discriminant group [1226834104, 2, 2], vectors of norm 2: -, even overlattices: -
+  => NOT certified
+verify [78, -722]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 20011): 0
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det -80970711412, discriminant group [80970711412], vectors of norm 2: -, even overlattices: -
+  => NOT certified
+verify [-6, -29]: some sections are undefined at P (degenerate point): NOT certified
+verify [39, 214]: some sections are undefined at P (degenerate point): NOT certified
+verify [15, -50]: some sections are undefined at P (degenerate point): NOT certified
+verify [0, 19]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 20011): 0
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 256451762446456, discriminant group [64112940611614, 2, 2], vectors of norm 2: -, even overlattices: -
+  => NOT certified
+mG + T for m = 0, t = 0: e_USER
+verify [-13, 6]: some sections are undefined at P (degenerate point): NOT certified
+verify [3, -2]: some sections are undefined at P (degenerate point): NOT certified
+verify [39/4, -43/8]: some sections are undefined at P (degenerate point): NOT certified
+verify [-6, 34]: some sections are undefined at P (degenerate point): NOT certified
+verify [39, -254]: some sections are undefined at P (degenerate point): NOT certified
+verify [15, 34]: some sections are undefined at P (degenerate point): NOT certified
+verify [0, -20]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 20011): 0
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1972215514482, discriminant group [1972215514482], vectors of norm 2: -, even overlattices: -
+  => NOT certified
+verify [12, -29]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [39/25, 1478/125]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-9, -26]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [78, 643]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [11/4, -57/8]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [91/9, 58/27]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [435, -9290]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-195/16, 1411/64]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [516/25, 8696/125]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-1833/841, -616246/24389]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-153/49, 9934/343]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [2886/121, -155086/1331]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1013): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-15774/1369, -815753/50653]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [67431/289, 16922198/4913]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [23055/2209, -1729678/103823]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [4680/1849, 436105/79507]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [62737/576, -16403501/13824]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-703261/70225, 599589558/18609625]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [120819/61009, -186620078/15069223]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [2581527/228484, 1258282591/109215352]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-2321646/3200521, 124529761474/5725732069]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [93468999/5612161, -820364043454/13295209409]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [42380655/1324801, 234552314270/1524845951]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-10450440/2128681, -89052232484/3105745579]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [1221305556/124657225, -11282314752241/1391797917125]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [8431186647/2841849481, -13183836785386/151496153982629]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [-1213442073/94148209, -351469903094/913520071927]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+verify [8533411926/2621161, 781401733451681/4243659659]:
+  deg a_i <= 2i: 1;  Delta of degree 24, squarefree (mod 1009): 1
+  17 sections on the curve: 1, integral (deg x <= 4, deg y <= 6): 1
+  Gram matrix: det 1092, discriminant group [1092], vectors of norm 2: 0, even overlattices: 0
+  => K3 surface with 24 I1 fibres; the 17 sections generate its Mordell-Weil lattice (rank 17, det 1092)
+
+not certified [m, t]: [[-2, 0], [-2, 1], [-2, 2], [-2, 3], [-1, 0], [-1, 1], [-1, 2], [-1, 3], [0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3]]
+check: verify_generic passed
