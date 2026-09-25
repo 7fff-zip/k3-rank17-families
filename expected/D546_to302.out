@@ -1,0 +1,7 @@
+D546_to302: ICARM #302 from surface(pt(2)) of D546_K3_family.gp
+  (1) the change of coordinates maps [L, p, q, D, E] of surface(pt(2)) to the published #302 model     ok
+  (2) fibres of the #302 model: [["I1", 24]];  the 17 sections are integral sections                   ok
+      their Gram matrix: det 1092, group [1092], no norm-2 vectors, no even overlattice                ok
+  (3) the fibre at T = 164518/924945 has the minimal model of #302                                     ok
+  (4) the 31 published points lie on #302; rank of their height matrix: 31                             ok
+D546_to302: all checks passed

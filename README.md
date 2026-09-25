@@ -23,7 +23,7 @@ You need PARI/GP (tested with 2.17.3). `flake.nix` and `flake.lock` pin this ver
 
     nix develop -c ./check.sh
 
-Without Nix, put any recent `gp` on your PATH and run `./check.sh`. Both families together take about 15 seconds.
+Without Nix, put any recent `gp` on your PATH and run `./check.sh`. All checks together take about 15 seconds.
 
 For each family, `check.gp` runs:
 
@@ -34,13 +34,29 @@ For each family, `check.gp` runs:
    The points that fail are exactly the degenerate ones listed in the header: m ∈ {−1, 0, 1} for D510 and
    m ∈ {−2, −1, 0, 1} for D546.
 
-`check.sh` writes the output to `out/`, removes the timings, and compares the result with `expected/`.
+`check.sh` also runs `D546_to302.gp` and `D546_to845.gp` (see below). It writes the output to `out/`, removes the timings, and compares the result with `expected/`.
 
 For interactive use:
 
     gp -q D546_K3_family.gp        # start a fresh session: the file fixes the variable order T > Y > X
     ? M = surface(pt(6));          # 6G -> [[L,p,q,D,E,B], [a1,...,a6], 17 sections]
     ? verify(pt(6))
+
+## Relation to ICARM curves #302 and #845
+
+Both ICARM curves are fibres of elliptic fibrations on the same surface: the D546 member at P = 2G. The curve data are
+from a snapshot of the [ICARM elliptic-curve rank database](https://elliptic-rank.icarm.cloud) taken on 2026-09-23.
+Each file is read after the family file, e.g. `gp -q D546_K3_family.gp D546_to302.gp`.
+
+- `D546_to302.gp`: #302 (rank 31) is a fibre of the family's own fibration. A change of T and a scaling map
+  `surface(pt(2))` exactly onto the model published in the #302 commentary; #302 is its fibre at
+  T = 164518/924945. The 17 sections carry over, so that model has Mordell–Weil rank 17 over Q(T).
+- `D546_to845.gp`: #845 (rank 31) is a fibre of a different fibration, with 22 I₁ + I₂ fibres and Mordell–Weil
+  rank 16. The file constructs it from `surface(pt(2))` by two explicit 2-neighbour steps. The result is isomorphic
+  over Q(T) to the model in the #845 commentary, and #845 is its fibre at T = 504307/1742937. The sections of the
+  rank-16 fibration are not given.
+
+Both files also check that the 31 published points lie on the curve and are independent.
 
 ## Input from the literature
 

@@ -1,0 +1,13 @@
+D546_to845: #845 from surface(pt(2)) of D546_K3_family.gp
+  step 0: surface(pt(2)) and its 17 sections in the frame of the construction                          ok
+  step 1: S = sum W1_i P_i has S.O = 4 (height 12)                                                     ok
+  step 1: Y^2 = X^3 - 27 c4 X - 54 c6, c4, c6 in Z[T] of degrees [8, 12], Delta of degree 24, squarefree ok
+  step 2: S2 and Pb lie on the step-1 model                                                            ok
+  step 2: S2.O = 2, Pb.O = 0, <Pb, S2> = 3   (F'' = O + S2, Pb.F'' = 1)                                ok
+  step 2: rank-16 model over u: deg c4 = 8, Delta of degree 22, squarefree: 22 I1 + I2 at u = oo       ok
+  step 3: after u = (22 - 84T)/(96T + 47): c4 = l^4 c4(#845 model), c6 = l^6 c6(#845 model), l^2 = 3240000 ok
+  step 3: l is rational, so the two models are isomorphic over Q(T) (no quadratic twist)               ok
+  the fibre of the #845 model at T0 = 504307/1742937 has the minimal model of #845                     ok
+  fibres of the #845 model: [["I1", 22], ["I2", 1]], the I2 at 96T + 47 = 0                            ok
+  the 31 published points lie on #845; rank of their height matrix: 31                                 ok
+D546_to845: all checks passed
